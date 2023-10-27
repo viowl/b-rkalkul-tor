@@ -12,5 +12,6 @@ button {
 }
 
 body {
-    background-color: blue;
+    background-image: url(/image/avaGit.jpg);
+    background-attachment: scroll;
 }
