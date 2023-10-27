@@ -15,3 +15,8 @@ body {
     background-image: url(/image/avaGit.jpg);
     background-attachment: scroll;
 }
+.result {
+    font-size: 100px;
+    color: tomato;
+    /* text-align: center; */
+}
