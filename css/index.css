@@ -8,16 +8,37 @@ button {
 }
 
 .topick {
-    
+    color: rgb(223, 12, 12);
+    font-size: 30px;
 }
 
 body {
-    background-image: url(../image/avaGit.jpg);
-    background-attachment: scroll;
+    background-image: url(../image/2023-11-24\ 08.27.54.jpg);
+    background-attachment: fixed;
+    background-size: cover;
 }
 .result {
     font-size: 100px;
-    color: tomato;
+    color: rgb(35, 238, 8);
     /* text-align: center; */
 }
+.day    {
+    background-color: rgb(53, 73, 255);
+    border-radius: 20px;
+    border: 1px;
+    margin-bottom: 15px;
+}
 
+.day1 {
+   background-color: rgb(255, 255, 255);
+   border-radius: 20px;
+   margin-bottom: 15px;
+   border: solid 1px;
+}
+
+.topickDay {
+    color: aliceblue;
+}
+.topickNight {
+    color: black;
+}
