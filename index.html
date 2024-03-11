@@ -1,52 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/index.css" />
-    <title>Document</title>
-</head>
-<body>
-    <ul>
-        <li><span class="topick">Salary -</span>
-            <input class="day" type="text" id="name-salary" placeholder="Please enter your salary for 1 hour" /></li>
+    <title>bérkalkulátor</title>
+  </head>
+  <body>
+    <table class="top-table" border="2">
+      <tbody>
+        <tr>
+          <td>Órabér</td>
+          <td><input type="text" id="salary-per-hour" placeholder="" /></td>
+        </tr>
+      </tbody>
+    </table>
 
-        <li><span class="topick topickDay">Day -</span>
-            <input class="day1" type="text" id="name-day" placeholder="Please enter your day shifts" /></li>
+    <table class="middle-table" border="2">
+      <thead>
+        <tr>
+          <th></th>
+          <th>órák</th>
+          <th>Összeg</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Összes</td>
+          <td><input type="text" id="day-hour" placeholder="" /></td>
+          <td id="day-salary"></td>
+        </tr>
+        <tr>
+          <td>Éjszakás</td>
+          <td><input type="text" id="" placeholder="" /></td>
+          <td><input type="text" id="" placeholder="" /></td>
+        </tr>
+        <tr>
+          <td>Vasárnap</td>
+          <td><input type="text" id="" placeholder="" /></td>
+          <td><input type="text" id="" placeholder="" /></td>
+        </tr>
+        <tr>
+          <td>Túlóra 100%</td>
+          <td><input type="text" id="" placeholder="" /></td>
+          <td><input type="text" id="" placeholder="" /></td>
+        </tr>
+        <tr>
+          <td>Szabadság</td>
+          <td><input type="text" id="" placeholder="" /></td>
+          <td><input type="text" id="" placeholder="" /></td>
+        </tr>
+        <tr>
+          <td>Fizetett ünnep</td>
+          <td><input type="text" id="" placeholder="" /></td>
+          <td><input type="text" id="" placeholder="" /></td>
+        </tr>
+        <tr>
+          <td>Bónusz</td>
+          <td><input type="text" id="" placeholder="" /></td>
+          <td><input type="text" id="" placeholder="" /></td>
+        </tr>
+        <tr>
+          <td>Nettó cafatéria</td>
+          <td><input type="text" id="" placeholder="" /></td>
+          <td><input type="text" id="" placeholder="" /></td>
+        </tr>
+        <tr>
+          <td>Bruttó cafatéria</td>
+          <td><input type="text" id="" placeholder="" /></td>
+          <td><input type="text" id="" placeholder="" /></td>
+        </tr>
+      </tbody>
+    </table>
 
-        <li><span class="topick  topickNight">Night -</span>
-            <input class="day" type="text" id="name-night" placeholder="Please enter your night shifts" />
+    <table border="2">
+      <thead>
+        <tr>
+          <th></th>
+          <th>Napok</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>12 óra</td>
+          <td><input type="text" id="" placeholder="" /></td>
+        </tr>
+        <tr>
+          <td>8 óra</td>
+          <td><input type="text" id="" placeholder="" /></td>
+        </tr>
+      </tbody>
+    </table>
 
-        </li>
-        <li><span class="topick">Over night -</span>
-            <input class="day1" type="text" id="name-over-night" placeholder="Please enter your over night shifts" />
-
-        </li>
-        <li><span class="topick">Over day -</span>
-            <input class="day" type="text" id="name-over-day" placeholder="Please enter your over day shifts" />
-           </li>
-    </ul>
-    <!-- <span class="topick">Salary -</span>
-    <input class="day" type="text" id="name-salary" placeholder="Please enter your salary for 1 hour" /> -->
-
-    <!-- <span class="topick">Day -</span>
-    <input class="day1" type="text" id="name-day" placeholder="Please enter your day shifts" />
-     -->
-    <!-- <span class="topick">Night -</span>
-    <input class="day" type="text" id="name-night" placeholder="Please enter your night shifts" /> -->
-
-    <!-- <span class="topick">Over night -</span>
-    <input class="day1" type="text" id="name-over-night" placeholder="Please enter your over night shifts" /> -->
-
-    <!-- <span class="topick">Over day -</span>
-    <input class="day" type="text" id="name-over-day" placeholder="Please enter your over day shifts" />
-    -->
-    <button class="button">Calculate</button>
-    
-    <div class="result">Result</div>
-
-
-    <script src="./js/index.js" type="module"></script>   
-</body>
+    <script src="./js/index.js" type="module"></script>
+  </body>
 </html>

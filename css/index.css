@@ -1,44 +1,34 @@
 input {
-    padding: 20px;
+  padding: 4px;
+}
+
+li {
+  list-style-type: none;
 }
 
 button {
-    color: brown;
-    background-color: aquamarine;
-}
-
-.topick {
-    color: rgb(223, 12, 12);
-    font-size: 30px;
+  color: brown;
+  background-color: aquamarine;
 }
 
 body {
-    background-image: url(../image/2023-11-24\ 08.27.54.jpg);
-    background-attachment: fixed;
-    background-size: cover;
+  background: rgb(247, 248, 248);
+  background: linear-gradient(
+    90deg,
+    rgba(247, 248, 248, 1) 0%,
+    rgba(172, 187, 120, 1) 100%
+  );
 }
+
 .result {
-    font-size: 100px;
-    color: rgb(35, 238, 8);
-    /* text-align: center; */
-}
-.day    {
-    background-color: rgb(53, 73, 255, 0.5);
-    border-radius: 20px;
-    border: 1px;
-    margin-bottom: 15px;
+  font-size: 100px;
+  color: rgb(35, 238, 8);
 }
 
-.day1 {
-   background-color: rgb(255, 255, 255, 0.5 );
-   border-radius: 20px;
-   margin-bottom: 15px;
-   border: solid 1px;
+.top-table {
+  margin-bottom: 16px;
 }
 
-.topickDay {
-    color: aliceblue;
-}
-.topickNight {
-    color: black;
+.middle-table {
+  margin-bottom: 16px;
 }
