@@ -91,6 +91,7 @@ dayOf.addEventListener("input", calculateDayOf);
 
 const bruto = document.getElementById("bruto");
 
+const calcuate = document.querySelector;
 // const salaryPerHour = document.getElementById("salary-per-hour");
 
 // const workTypes = {
